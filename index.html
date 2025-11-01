@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="./icons/power_fit.png">
+    <script src="./script.js" defer></script>
+    
+    <title>PowerFit | Book Gym Sessions Online | Fitness, Trainers & Memberships</title>
+    <meta name="description" content="PowerFit lets you book gym sessions, track progress, and connect with certified trainers — all in one platform. No queues, no calls. Just fitness made simple.">
+    <meta name="keywords" content="gym booking, fitness center, personal training, workout sessions, online gym booking, PowerFit, health, fitness app, exercise, gym management">
+</head>
+<body>
+
+    <!--! Navbar -->
+    <nav id="navbar">
+        <div id="logo">
+          <img src="./icons/power_fit.png" alt="Iron & Grace Logo">
+          <h2 id="logo-text">
+            <span>POWER</span> 
+            <span>FIT</span>
+          </h2>
+        </div>
+      
+        <!-- Hamburger Icon -->
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      
+        <ul id="nav-links">
+          <li><a href="#hero" aria-label="Home">Home</a></li>
+          <li><a href="#products" aria-label="Product">Product</a></li>
+          <li><a href="#testimonials" aria-label="Testimonials">Testimonials</a></li>
+          <li><a href="#pricing" aria-label="Pricing">Pricing</a></li>
+          <li><a href="#contact" aria-label="Contact">Contact</a></li>
+        </ul>
+    </nav>
+      
+
+    <!--! Hero section -->
+    <section id="hero">
+        <img src="./images/powerfit_hero.png" alt="PowerFit">
+
+        <div class="hero-container">
+            <h1>
+                <span>Grow</span>
+                <span>Yourself</span>
+                <span>Here</span>
+            </h1>
+
+            <p>Track Your Health. Transform Your Life.</p>
+            <p>Welcome to <strong>PowerFit</strong> — where fitness meets simplicity. Book your workout sessions in seconds, find certified trainers, and track your progress all in one place. Whether you’re lifting, stretching, or training for your next goal, our modern equipment and personalized programs help you stay focused, disciplined, and unstoppable. Let’s build a stronger you — one rep at a time.</p>            
+
+            <div>
+                <a href="#pricing" aria-label="Book Now">Book Now</a>
+                <a href="#contact" aria-label="Contact">Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <!--! Features section -->
+    <section class="features" id="features">
+        <h2>Our Features</h2>
+        <p class="section-subtitle">Why choose our fitness center</p>
+      
+        <div class="features-grid">
+          <div>
+            <i class="fas fa-dumbbell"></i>
+            <h3>Modern Equipment</h3>
+            <p>Train with the latest machines and tools designed for maximum results.</p>
+          </div>
+      
+          <div>
+            <i class="fas fa-user-friends"></i>
+            <h3>Professional Trainers</h3>
+            <p>Certified trainers to guide your fitness journey every step of the way.</p>
+          </div>
+      
+          <div>
+            <i class="fas fa-heartbeat"></i>
+            <h3>Personalized Programs</h3>
+            <p>Tailored workout and nutrition plans to meet your individual goals.</p>
+          </div>
+      
+          <div>
+            <i class="fas fa-clock"></i>
+            <h3>Flexible Timings</h3>
+            <p>Morning to late-night slots available to suit your busy lifestyle.</p>
+          </div>
+        </div>
+    </section>      
+
+    <!--! Products section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <p class="section-subtitle">Choose from our premium gym essentials</p>
+      
+        <div class="product-grid">
+          <div>
+            <img src="./images/protein_powder.png" loading="lazy" alt="Protein Powder" />
+            <h3>Protein Powder</h3>
+            <p>High-quality whey protein to support muscle recovery and growth.</p>
+            <span>₹1,499</span>
+            <button type="button" data-button-type="buy" data-item="Protein Powder" aria-label="Buy protein powder">Buy Now</button>
+          </div>
+      
+          <div>
+            <img src="./images/gym_gloves.png" loading="lazy" alt="Gym Gloves" />
+            <h3>Gym Gloves</h3>
+            <p>Durable and comfortable gloves for safe and strong lifts.</p>
+            <span>₹499</span>
+            <button type="button" data-button-type="buy" data-item="Gym Gloves" aria-label="Gym gloves">Buy Now</button>
+          </div>
+      
+          <div>
+            <img src="./images/shaker_bottle.png" loading="lazy" alt="Shaker Bottle" />
+            <h3>Shaker Bottle</h3>
+            <p>Leak-proof shaker with steel ball for smooth blends.</p>
+            <span>₹299</span>
+            <button type="button" data-button-type="buy" data-item="Shaker Bottle" aria-label="Shaker bottle">Buy Now</button>
+          </div>
+      
+          <div>
+            <img src="./images/yoga_mat.png" loading="lazy" alt="Yoga Mat" />
+            <h3>Yoga Mat</h3>
+            <p>Non-slip mat with extra cushioning for comfort and stability.</p>
+            <span>₹899</span>
+            <button type="button" data-button-type="buy" data-item="Yoga Mat" aria-label="Yoga mat">Buy Now</button>
+          </div>
+        </div>
+    </section>      
+
+    <!--! Testimonial section -->
+    <section id="testimonials">
+        <h1>What Our Members Say</h1>
+
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <img src="./images/aman_verma.webp" loading="lazy" alt="Aman verma">
+                <p>
+                    “Joining <strong>PowerFit</strong> has completely transformed my fitness journey! 
+                    The trainers push you just enough, and the environment keeps you motivated every single day.”
+                </p>
+                <h3>Aman Verma</h3>
+                <p>Software Engineer</p>
+            </div>
+
+            <div class="testimonial-card popular">
+                <img src="./images/priya_singh.webp" loading="lazy" alt="Priya singh">
+                <p>
+                    “Best gym in Fatehabad — clean, well-equipped, and the energy here is unmatched. 
+                    Highly recommend PowerFit for anyone serious about results.”
+                </p>
+                <h3>Priya Singh</h3>
+                <p>Entrepreneur</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="./images/rohit_mehta.webp" loading="lazy" alt="Rohit mehta">
+                <p>
+                    “Love how personal the training feels. The instructors actually care and guide you properly 
+                    instead of just handing out generic routines.”
+                </p>
+                <h3>Rohit Mehta</h3>
+                <p>College Student</p>
+            </div>
+        </div>
+    </section>
+
+    <!--! Pricing section -->
+    <section id="pricing" class="pricing-section">
+        <h2>Our Membership Plans</h2>
+        <p class="section-subtitle">Choose a plan that fits your fitness goals and schedule. All memberships include access to top-tier equipment, trainers, and facilities.</p>
+      
+        <div class="pricing-cards">
+          <div class="card">
+            <h3>Basic</h3>
+            <p>₹799 / month</p>
+            <ul>
+              <li>Access to gym floor</li>
+              <li>Locker & Shower</li>
+              <li>1 Free Trainer Session</li>
+            </ul>
+            <button type="button" data-button-type="join" data-item="Basic Membership" aria-label="Join basic plan">Join Now</button>
+          </div>
+      
+          <div class="card popular">
+            <h3>Pro</h3>
+            <p>₹1299 / month</p>
+            <ul>
+              <li>Access to all equipment</li>
+              <li>Personal Trainer (3x/week)</li>
+              <li>Free Diet Plan</li>
+              <li>Steam & Sauna Access</li>
+            </ul>
+            <button type="button" data-button-type="join" data-item="Pro Membership" aria-label="Join pro plan">Join Now</button>
+          </div>
+      
+          <div class="card">
+            <h3>Elite</h3>
+            <p>₹1999 / month</p>
+            <ul>
+              <li>Unlimited Access</li>
+              <li>Personal Trainer (Daily)</li>
+              <li>Custom Meal Plans</li>
+              <li>Priority Support</li>
+            </ul>
+            <button type="button" data-button-type="join" data-item="Elite Membership" aria-label="Join elite plan">Join Now</button>
+          </div>
+        </div>
+      
+        <div class="timing-calendar">
+          <h3>Gym Timings</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Opening Hours</th>
+                <th>Trainer Availability</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Monday</td><td>6:00 AM – 10:00 PM</td><td>Yes</td></tr>
+              <tr><td>Tuesday</td><td>6:00 AM – 10:00 PM</td><td>Yes</td></tr>
+              <tr><td>Wednesday</td><td>6:00 AM – 10:00 PM</td><td>Yes</td></tr>
+              <tr><td>Thursday</td><td>6:00 AM – 10:00 PM</td><td>Yes</td></tr>
+              <tr><td>Friday</td><td>6:00 AM – 10:00 PM</td><td>Yes</td></tr>
+              <tr><td>Saturday</td><td>6:00 AM – 10:00 PM</td><td>Limited</td></tr>
+              <tr><td>Sunday</td><td>8:00 AM – 6:00 PM</td><td>No</td></tr>
+            </tbody>
+          </table>
+        </div>
+    </section>      
+
+    <!--! Contact section -->
+    <section id="contact">
+        <h2>Reach us</h2>
+        <p class="section-subtitle">Have questions about memberships, personal training, or gym schedules? We’d love to help you out. Fill out the form below or visit our main branch — our team will respond within 24 hours. Your fitness journey deserves the right guidance — and we’re here to provide it.</p>
+        
+        <form action="#">
+            <label for="Name">Name</label>
+            <input type="text" name="name" id="Name" aria-label="Name" required aria-required="true">
+
+            <label for="Email">Email</label>
+            <input type="email" name="email" id="Email" aria-label="Email" required aria-required="true">
+
+            <label for="Phone">Phone number</label>
+            <input type="tel" name="phone" id="Phone" aria-label="Phone number" required aria-required="true">
+
+            <label for="Reason">Why reach us?</label>
+            <textarea name="reason" id="Reason" rows="7" required aria-required="true"></textarea>
+
+            <button type="submit" data-button-type="send" aria-label="Send">Send</button>
+        </form>
+
+        <div class="contact-info">
+            <p><strong>Address:</strong> 362, Front of HDFC Bank, Fatehabad, Haryana</p>
+            <p><strong>Phone:</strong> +91 97426 74800 | +91 95386 42500</p>
+            <p><strong>Email:</strong> support@powerfit.in</p>
+            <p><strong>Hours:</strong> Mon–Sat: 6:00 AM – 10:00 PM | Sun: 8:00 AM – 6:00 PM</p>
+        </div>        
+    </section>
+
+    <!--! Footer -->
+    <footer>
+        <div class="footer-container">
+            <div>
+                <h2 id="logo-text">
+                    <span>POWER</span> 
+                    <span>FIT</span>
+                </h2>
+                <p>Your fitness journey starts here. Train smarter, stay consistent, and achieve results that last.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#hero" aria-label="Home">Home</a></li>
+                    <li><a href="#features" aria-label="Features">Features</a></li>
+                    <li><a href="#pricing" aria-label="Pricing">Pricing</a></li>
+                    <li><a href="#contact" aria-label="Contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-socials">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a style="--anchor-color: #1f1ffd" href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a style="--anchor-color: #fd1f95" href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a style="--anchor-color: #44c7f4" href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a style="--anchor-color: crimson" href="#" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Contact</h3>
+            <p><i class="fas fa-location-dot"></i> 362, Front of HDFC Bank, Fatehabad, Haryana</p>
+            <p><i class="fas fa-phone"></i> +91 97426 74800 | +91 95386 42500</p>
+            <p><i class="fas fa-envelope"></i> support@powerfit.in</p>
+        </div>
+
+        <p>© 2025 PowerFit. All Rights Reserved.</p>
+    </footer>
+
+    <!--! Toast -->
+    <div id="toast"></div>
+
+</body>
+</html>
