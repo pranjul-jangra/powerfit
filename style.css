@@ -880,6 +880,10 @@ footer > p {
     }
 
     /* Hero section */
+    #hero {
+        height: calc(100dvh - 50px);
+    }
+
     .hero-container {
         background: linear-gradient(to top, black, rgba(0, 0, 0, 0.361), transparent);
         padding: 60px 3%;
