@@ -123,7 +123,9 @@ body {
 #hero {
     width: 100%;
     height: calc(100dvh - 60px);
+    min-height: 450px;
     position: relative;
+    overflow: hidden;
 
     & > img {
         width: 100%;
@@ -928,8 +930,3 @@ footer > p {
     }
 }
 
-@media (orientation: landscape) {
-    #hero {
-        height: fit-content;
-    }
-}
